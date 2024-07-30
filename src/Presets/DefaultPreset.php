@@ -13,6 +13,7 @@ class DefaultPreset implements PresetInterface
             Linters\ApplyMiddlewareInRoutes::class,
             Linters\ArrayParametersOverViewWith::class,
             Linters\FullyQualifiedFacades::class,
+            Linters\LeadingSlashesOnRoutePaths::class,
             Linters\MailableMethodsInBuild::class,
             Linters\NoDatesPropertyOnModels::class,
             Linters\NoDocBlocksForMigrationUpDown::class,
@@ -32,6 +33,7 @@ class DefaultPreset implements PresetInterface
         return [
             Formatters\ArrayParametersOverViewWith::class,
             Formatters\FullyQualifiedFacades::class,
+            Formatters\LeadingSlashesOnRoutePaths::class,
             Formatters\MailableMethodsInBuild::class,
             Formatters\NoDatesPropertyOnModels::class,
             Formatters\NoDocBlocksForMigrationUpDown::class,
