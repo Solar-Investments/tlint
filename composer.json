@@ -23,6 +23,16 @@
             "Tests\\": "tests/"
         }
     },
+    "scripts": {
+        "cs-fix": "@php vendor/bin/pint",
+        "test": "@php vendor/bin/phpunit",
+        "test-filter": "@test --filter",
+        "test-suite": [
+            "@test"
+        ],
+        "tf": "@test-filter",
+        "ts": "@test-suite"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
