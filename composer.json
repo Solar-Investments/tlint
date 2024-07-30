@@ -1,0 +1,30 @@
+{
+    "name": "solar-investments/tlint",
+    "description": "TLint preset",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kyle Anderson",
+            "email": "kyle.anderson@fixr.com"
+        }
+    ],
+    "homepage": "https://github.com/Solar-Investments/tlint",
+    "require": {
+        "tightenco/tlint": "^9.3"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.17"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Tighten\\TLint\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
